@@ -8,7 +8,7 @@ using ParseMode = Telegram.Bot.Types.Enums.ParseMode;
 namespace MyTgBot.Model {
     internal class BotFunctional {
         /// <summary>
-        /// BOT token
+        /// BOT client for interaction
         /// </summary>
         public static ITelegramBotClient bot = new TelegramBotClient(""); // token(from Botfather)
 
