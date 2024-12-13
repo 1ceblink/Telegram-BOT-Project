@@ -13,6 +13,7 @@ namespace MyTgBot.Model {
     internal static class BotFunctional {
         private static readonly ITelegramBotClient BotClient = new TelegramBotClient("<TOKEN>");
 
+        // in real project this data will be held in DB
         private static readonly ConcurrentDictionary<long, User> UsersInProcess = new();
         private static readonly ConcurrentDictionary<long, User> UsersWithNotifications = new();
 
