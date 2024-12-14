@@ -1,6 +1,6 @@
 ﻿namespace MyTgBot.Model {
 
-    /// Stub, in a real version there will be a call to the DB
+    /// Stub, in a real project there will be a call to the DB
     class NotifierData {
 
         public int Year { get; set; }
