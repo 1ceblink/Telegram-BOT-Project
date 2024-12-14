@@ -1,1 +1,2 @@
-Interactions with DB are not included so the project is unstable to application crashes.
+This project is a telegram bot capable of remembering the birthdays of people important to you and informing about them with a telegram message.
+Interactions with DB are not included so the project may be unstable to application crashes.
